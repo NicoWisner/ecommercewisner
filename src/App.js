@@ -1,15 +1,17 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Navbar from './components/Navbar';
-
+import Header from './components/Navbar';
+import ItemListContainer from './components/ItemListContainer/IntemListContainer';
 
 function App() {
    return (
     <div className="App">
-   <Router>
-     <Navbar />
-   </Router>
+   <>
+     <Header/>
+     <ItemListContainer greeting="mi e-commerce"/>
+     
+     
+   </>
     </div>
   );
-}
+};
 export default App;
