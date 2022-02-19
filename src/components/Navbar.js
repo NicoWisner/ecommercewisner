@@ -6,17 +6,17 @@ const Header = () => {
     <Navbar>
        <Container>
          <Navbar.Brand>
-           <a>e-Commerce</a>
+           <p>e-Commerce</p>
          </Navbar.Brand>
-         <Navbar.Text classname = "search">
+         <Navbar.Text className = "search">
            <FormControl
             style = {{ Whidth: 500 }}
             placeholder = "Search a product"
            />
          </Navbar.Text>
          <Nav>
-           <Dropdown alignRight>
-             <Dropdown.Toggle Variant = "Success">
+           <Dropdown>
+             <Dropdown.Toggle variant = "Success">
                <FaShoppingCart color="white" fontSize="25px"/>
                <Badge> {10}</Badge>
               </Dropdown.Toggle>
